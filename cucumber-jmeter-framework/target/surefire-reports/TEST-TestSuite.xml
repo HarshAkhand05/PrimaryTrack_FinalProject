@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="11.411" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\cucumber-jmeter-framework\target\test-classes;D:\cucumber-jmeter-framework\target\classes;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\HP\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\HP\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\HP\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\HP\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\HP\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\HP\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.24.0\allure-cucumber7-jvm-2.24.0.jar;C:\Users\HP\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\HP\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\HP\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-17.0.14.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire15065859083166798206\surefirebooter-20260418135625150_3.jar C:\Users\HP\AppData\Local\Temp\surefire15065859083166798206 2026-04-18T13-56-24_834-jvmRun1 surefire-20260418135625150_1tmp surefire_0-20260418135625150_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\cucumber-jmeter-framework\target\test-classes;D:\cucumber-jmeter-framework\target\classes;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\HP\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\HP\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\HP\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\HP\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\HP\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\HP\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.24.0\allure-cucumber7-jvm-2.24.0.jar;C:\Users\HP\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\HP\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\HP\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Microsoft\jdk-17.0.14.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\cucumber-jmeter-framework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire15065859083166798206\surefirebooter-20260418135625150_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.14+7-LTS"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-10800295"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.14"/>
+    <property name="user.dir" value="D:\cucumber-jmeter-framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-17.0.14.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\HP\anaconda3;C:\Users\HP\anaconda3\Library\mingw-w64\bin;C:\Users\HP\anaconda3\Library\usr\bin;C:\Users\HP\anaconda3\Library\bin;C:\Users\HP\anaconda3\Scripts;C:\Users\HP\anaconda3\bin;C:\Users\HP\anaconda3\condabin;c:\Users\HP\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\HP\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code;C:\Python310\Scripts;C:\Python310;C:\Program Files\Microsoft\jdk-17.0.14.7-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft\jdk-17.0.14.7-hotspot;C:\Users\HP\AppData\Local\Android\Sdk\platforms;C:\Users\HP\AppData\Local\Android\Sdk\build-tools;C:\Users\HP\AppData\Local\Android\Sdk\emulator;C:\Users\HP\AppData\Local\Android\Sdk\platform-tools;C:\Users\HP\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\HP\AppData\Local\Programs\Python\Python313;C:\Users\HP\AppData\Roaming\npm;C:\Program Files\nodejs;C:\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\170\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\dotnet\dotnet.exe;D:\apache-maven-3.9.12\bin;D:\apache-jmeter-5.6.3\bin;C:\Users\HP\scoop\apps\maven\current\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\HP\scoop\shims;C:\Users\HP\AppData\Local\Programs\Python\Launcher;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\Downloads\jdk-8u411-windows-x64.exe;C:\Users\HP\AppData\Local\Android\Sdk\platform-tools;C:\Users\HP\AppData\Local\Android\Sdk\emulator;C:\Users\HP\AppData\Local\Android\Sdk\build-tools;C:\Users\HP\AppData\Local\Android\Sdk\platforms;C:\Program Files\Microsoft\jdk-17.0.14.7-hotspot;C:\Program Files\Microsoft\jdk-17.0.14.7-hotspot\bin;C:\Python310;C:\Python310\Scripts;C:\chromedriver;C:\Users\HP\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\HP\anaconda3;C:\Users\HP\anaconda3\Scripts;C:\Users\HP\anaconda3\Library\bin;C:\apache-tomcat-10.1.41-windows-x64\apache-tomcat-10.1.41\bin;C:\Users\HP\AppData\Local\GitHubDesktop\bin;C:\Users\HP\.dotnet\tools;D:\apache-jmeter-5.6.3\bin;.;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="17.0.14+7-LTS"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Run JMeter performance test&quot;, &quot;Performance Testing&quot;](1)" classname="runners.TestRunner" time="9.953">
+    <system-out><![CDATA[
+Scenario: Run JMeter performance test        &amp#27;[90m# src/test/resources/features/jmeter.feature:3&amp#27;[0m
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using D:\cucumber-jmeter-framework\testplan.jmx
+Starting standalone test @ 2026 Apr 18 13:56:29 IST (1776500789850)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:02 =    0.4/s Avg:  1957 Min:  1957 Max:  1957 Err:     0 (0.00%) Active: 4 Started: 5 Finished: 1
+summary +      9 in 00:00:03 =    3.0/s Avg:   981 Min:   717 Max:  1712 Err:     0 (0.00%) Active: 0 Started: 10 Finished: 10
+summary =     10 in 00:00:05 =    1.9/s Avg:  1078 Min:   717 Max:  1957 Err:     0 (0.00%)
+Tidying up ...    @ 2026 Apr 18 13:56:35 IST (1776500795344)
+... end of run
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI execute JMeter test&amp#27;[0m                &amp#27;[90m# stepdefinitions.JMeterSteps.runTest()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mresponse time should be below &amp#27;[0m&amp#27;[32m&amp#27;[1m5000&amp#27;[0m&amp#27;[32m ms&amp#27;[0m &amp#27;[90m# stepdefinitions.JMeterSteps.validatePerformance(int)&amp#27;[0m
+Scenario: Run JMeter performance test
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

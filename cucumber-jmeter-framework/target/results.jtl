@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1776500790352,1957,Login API,200,OK,Users Thread Group 1-1,text,true,,614,362,5,5,https://demoqa.com/Account/v1/Login,1941,0,849
+1776500791117,1192,Login API,200,OK,Users Thread Group 1-3,text,true,,614,362,5,5,https://demoqa.com/Account/v1/Login,1176,0,335
+1776500790617,1712,Login API,200,OK,Users Thread Group 1-2,text,true,,614,362,3,3,https://demoqa.com/Account/v1/Login,1711,0,599
+1776500791623,905,Login API,200,OK,Users Thread Group 1-4,text,true,,614,362,2,2,https://demoqa.com/Account/v1/Login,904,0,449
+1776500792134,938,Login API,200,OK,Users Thread Group 1-5,text,true,,614,362,2,2,https://demoqa.com/Account/v1/Login,937,0,447
+1776500792626,822,Login API,200,OK,Users Thread Group 1-6,text,true,,614,362,2,2,https://demoqa.com/Account/v1/Login,822,0,360
+1776500793118,925,Login API,200,OK,Users Thread Group 1-7,text,true,,614,362,2,2,https://demoqa.com/Account/v1/Login,924,0,410
+1776500793622,899,Login API,200,OK,Users Thread Group 1-8,text,true,,614,362,2,2,https://demoqa.com/Account/v1/Login,899,0,406
+1776500794122,720,Login API,200,OK,Users Thread Group 1-9,text,true,,614,362,2,2,https://demoqa.com/Account/v1/Login,719,0,341
+1776500794624,717,Login API,200,OK,Users Thread Group 1-10,text,true,,614,362,1,1,https://demoqa.com/Account/v1/Login,716,0,323
+1776836577795,66,Login API,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: No such host is known (demoqa.com),Users Thread Group 1-1,text,false,,2525,0,1,1,https://demoqa.com/Account/v1/Login,0,0,65
+1776836578090,0,Login API,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: demoqa.com,Users Thread Group 1-2,text,false,,2157,0,1,1,https://demoqa.com/Account/v1/Login,0,0,0
+1776836578589,1,Login API,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: demoqa.com,Users Thread Group 1-3,text,false,,2157,0,1,1,https://demoqa.com/Account/v1/Login,0,0,1
+1776836579089,1,Login API,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: demoqa.com,Users Thread Group 1-4,text,false,,2157,0,1,1,https://demoqa.com/Account/v1/Login,0,0,1
+1776836579586,1,Login API,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: demoqa.com,Users Thread Group 1-5,text,false,,2157,0,1,1,https://demoqa.com/Account/v1/Login,0,0,1
+1776836580088,1,Login API,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: demoqa.com,Users Thread Group 1-6,text,false,,2157,0,1,1,https://demoqa.com/Account/v1/Login,0,0,1
+1776836580584,1,Login API,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: demoqa.com,Users Thread Group 1-7,text,false,,2157,0,1,1,https://demoqa.com/Account/v1/Login,0,0,1
+1776836581084,1,Login API,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: demoqa.com,Users Thread Group 1-8,text,false,,2157,0,1,1,https://demoqa.com/Account/v1/Login,0,0,1
+1776836581584,1,Login API,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: demoqa.com,Users Thread Group 1-9,text,false,,2157,0,1,1,https://demoqa.com/Account/v1/Login,0,0,1
+1776836582087,1,Login API,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: demoqa.com,Users Thread Group 1-10,text,false,,2157,0,1,1,https://demoqa.com/Account/v1/Login,0,0,1
