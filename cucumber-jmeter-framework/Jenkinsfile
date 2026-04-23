@@ -2,46 +2,25 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'
         jdk 'JDK21'
-    }
-
-    environment {
-        JMETER_HOME = 'C:\\apache-jmeter-5.6.3'
-        PATH = "${env.PATH};${JMETER_HOME}\\bin"
+        maven 'Maven'
     }
 
     stages {
 
-        stage('Build Project') {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Build and Test') {
             steps {
                 dir('cucumber-jmeter-framework') {
-                    bat 'mvn clean verify "-Dmaven.test.failure.ignore=true"'
+                    bat 'mvn clean test'
                 }
             }
         }
 
-        stage('Start Selenium Grid') {
-            steps {
-                bat 'start /B java -jar selenium-server-4.41.0.jar standalone'
-                sleep 20
-            }
-        }
-
-        stage('Run Selenium Tests') {
-            steps {
-                dir('cucumber-jmeter-framework') {
-                    bat 'mvn test'
-                }
-            }
-        }
-
-        stage('Run JMeter Tests') {
-            steps {
-                dir('cucumber-jmeter-framework') {
-                    bat 'jmeter -n -t testplan.jmx -l result.jtl'
-                }
-            }
-        }
     }
 }
