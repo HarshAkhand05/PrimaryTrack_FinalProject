@@ -15,7 +15,9 @@ pipeline {
 
         stage('Build Project') {
             steps {
-                bat 'mvn clean verify "-Dmaven.test.failure.ignore=true"'
+                dir('cucumber-jmeter-framework') {
+                    bat 'mvn clean verify "-Dmaven.test.failure.ignore=true"'
+                }
             }
         }
 
@@ -28,13 +30,17 @@ pipeline {
 
         stage('Run Selenium Tests') {
             steps {
-                bat 'mvn test'
+                dir('cucumber-jmeter-framework') {
+                    bat 'mvn test'
+                }
             }
         }
 
         stage('Run JMeter Tests') {
             steps {
-                bat 'jmeter -n -t testplan.jmx -l result.jtl'
+                dir('cucumber-jmeter-framework') {
+                    bat 'jmeter -n -t testplan.jmx -l result.jtl'
+                }
             }
         }
     }
