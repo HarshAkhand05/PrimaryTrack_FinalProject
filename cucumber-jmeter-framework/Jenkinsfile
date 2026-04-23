@@ -6,21 +6,27 @@ pipeline {
         maven 'Maven'
     }
 
+    environment {
+        JMETER_HOME = 'C:\\apache-jmeter-5.6.3'
+        PATH = "${env.PATH};${JMETER_HOME}\\bin"
+    }
+
     stages {
 
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-
-        stage('Build and Test') {
+        stage('Run Selenium Tests') {
             steps {
                 dir('cucumber-jmeter-framework') {
-                    bat 'mvn clean test'
+                    bat 'mvn clean test -Dcucumber.filter.tags="@UI"'
                 }
             }
         }
 
+        stage('Run JMeter Tests') {
+            steps {
+                dir('cucumber-jmeter-framework') {
+                    bat 'mvn test -Dcucumber.filter.tags="@Performance"'
+                }
+            }
+        }
     }
 }
